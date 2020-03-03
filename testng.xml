@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2"  name="MyTestNGProject">
+        <classes>
+            <!--change the class i wanna run here class name-->
+            <class name="company.com.SampleTestNG">
+                <!--<methods>
+                    <include name="test_Login"/>
+                    <include name="facebookLogin"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+
+
+    <test verbose="2" preserve-order="true" name="C:/Users/KINETICSKUNK-DC/MyTestNGProject">
+    <classes>
+        <!--change the class i wanna run here class name-->
+        <class name="company.com.FacebookProfileTest">
+
+        </class>
+    </classes>
+</test>
+
+    <test verbose="2" preserve-order="true" name="MyTestNGProject1">
+        <classes>
+            <!--change the class i wanna run here class name-->
+            <class name="company.com.facebookLogin">
+
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="second testNG Package">
+        <packages>
+
+            <package name="com.testing.training">
+
+            </package>
+        </packages>
+
+
+    </test>
+</suite>
