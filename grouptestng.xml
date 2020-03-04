@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Case Group">
+    <test name="Sample" preserve-order="true">
+       <groups>
+           <run>
+               <!--<include name="Sanity"></include>-->
+               <include name="Smoke Test"></include>
+               <include name="Regression"></include>
+
+           </run>
+
+       </groups>
+        <classes>
+            <class name="com.testing.training.TestCaseGouping"></class>
+            
+        </classes>
+
+
+
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Parameters">
+    <test name="Test parameters via xml" preserve-order="true">
+        <parameter name="browser" value="Chrome"></parameter>
+        <parameter name="userName" value="sinawo@kineticskunk.com"></parameter>
+        <parameter name="password" value="test123#"></parameter>
+        
+        <classes>
+            <class name="com.testing.training.TestParameters"/>
+
+        </classes>
+
+
+
+    </test>
+</suite>
